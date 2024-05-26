@@ -14,13 +14,14 @@ body{
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
 .row{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .col-60{
@@ -39,10 +40,16 @@ body{
     align-content: center;
 }
 
+.col-80{
+    width: 80%;
+    background-color: rgb(238, 118, 234);
+    height: 300px;
+}
+
 /* style */
 header{
     background-color: lightblue;
-    padding: 1%;
+    padding: 0.5%;
 }
 
 .logo{
@@ -56,4 +63,10 @@ header{
 .login{
     margin-right: 10px;
     text-align: end;
+}
+
+.bg-blue{
+    background-color: rgb(2, 2, 157);
+    padding: 1.5%;
+    border-bottom: 4px solid lightblue;
 }
