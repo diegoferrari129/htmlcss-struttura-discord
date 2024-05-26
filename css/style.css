@@ -58,6 +58,12 @@ body{
     height: 400px;
 }
 
+.col-100{
+    width: 100%;
+    background-color: green;
+    height: 600px;
+}
+
 /* style */
 header{
     background-color: lightblue;
