@@ -85,3 +85,7 @@ header{
     background-color: rgb(2, 2, 157);
     border-bottom: 4px solid lightblue;
 }
+
+.bg-lightgrey{
+    background-color: lightgray;
+}
